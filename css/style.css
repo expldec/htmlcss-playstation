@@ -2,17 +2,54 @@
 
 .hero-banner {
     height: 80vh;
+    padding: 3rem;
     background-size:cover;
     background-position: top;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    font-weight: 400;
+}
+
+.ms_img-wrapper {
+    padding: 2rem 0;
+}
+
+.ms_thumbnail {
+    position: relative;
+}
+
+.ms_thumbnail img {
+    border-radius: 1rem;
+}
+
+.ms_thumbnail.ms_active::before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    border: 3px solid #2d64e6;
+    border-radius: 1.3rem;
+    /* transform: scale(1.1); */
 }
 
 /* BUTTONS */
 .ms_btn {
     border-radius: 3rem;
     height: 2.5em;
-    display: flex;
+    display: inline-flex;
     align-items: center;
+}
+
+.ms_btn:focus {
+    box-shadow: none;
 }
 
 .ms_btn-black {
@@ -21,6 +58,15 @@
 }
 
 .ms_btn-black:hover {
+    color: white;
+}
+
+.ms_btn-red {
+    background-color: #cd3d0f;
+    color: white;
+}
+
+.ms_btn-red:hover {
     color: white;
 }
 
@@ -76,6 +122,7 @@ header {
 /* JUMBOTRON */
 #jumbotron {
     margin-top: 7rem;
+    color: white;
 }
 
 #jumbotron .hero-banner {
