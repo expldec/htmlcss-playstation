@@ -1,3 +1,12 @@
+/* COMMON */
+
+.hero-banner {
+    height: 80vh;
+    background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
 /* BUTTONS */
 .ms_btn {
     border-radius: 3rem;
@@ -16,6 +25,10 @@
 }
 
 /* HEADER */
+header {
+    width: 100%;
+}
+
 #header-top {
     background-color: black;
     height: 2rem;
@@ -28,6 +41,10 @@
 #header-top img {
     height: 50%;
     width: auto;
+}
+
+#header-nav {
+    height: 5rem;
 }
 
 #header-nav .ms_dropdown-toggle::after {
@@ -54,4 +71,21 @@
 }
 .ms_search-icon img {
     height: 2em;
+}
+
+/* JUMBOTRON */
+#jumbotron {
+    margin-top: 7rem;
+}
+
+#jumbotron .hero-banner {
+    background-image: url('../img/jumbo-bg.png');
+
+}
+
+
+/* "Now Out" section */
+
+#now-out .hero-banner {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
 }
