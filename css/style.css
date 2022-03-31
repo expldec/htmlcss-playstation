@@ -1,3 +1,7 @@
+:root {
+    --ms_color-blue: #0070d1;
+}
+
 /* COMMON */
 
 .hero-banner {
@@ -35,7 +39,7 @@ h2 {
     left: -4px;
     width: calc(100% + 8px);
     height: calc(100% + 8px);
-    border: 3px solid #2d64e6;
+    border: 3px solid var(--ms_color-blue);
     border-radius: 1.3rem;
     /* transform: scale(1.1); */
 }
@@ -46,6 +50,11 @@ h2 {
     height: 2.5em;
     display: inline-flex;
     align-items: center;
+    color: white;
+}
+
+.ms_btn:hover {
+    color: white;
 }
 
 .ms_btn:focus {
@@ -54,21 +63,16 @@ h2 {
 
 .ms_btn-black {
     background-color: #363636;
-    color: white;
-}
-
-.ms_btn-black:hover {
-    color: white;
 }
 
 .ms_btn-red {
     background-color: #cd3d0f;
-    color: white;
 }
 
-.ms_btn-red:hover {
-    color: white;
+.ms_btn-blue {
+    background-color: var(--ms_color-blue);
 }
+
 
 /* HEADER */
 header {
@@ -128,6 +132,24 @@ header {
 #jumbotron .hero-banner {
     background-image: url('../img/jumbo-bg.png');
 
+}
+
+
+/* PS5 SECTION */
+
+#ps5 {
+    padding: 3rem 0;
+}
+
+#ps5 p.supertitle {
+    text-transform: uppercase;
+    color: var(--ms_color-blue);
+    font-weight: 600;
+    margin-bottom: -2rem;
+}
+
+#ps5 p {
+    color: grey;
 }
 
 
