@@ -5,7 +5,7 @@
 /* COMMON */
 
 .hero-banner {
-    height: 80vh;
+    min-height: 80vh;
     padding: 3rem;
     background-size:cover;
     background-position: top;
@@ -168,6 +168,9 @@ header {
 }
 
 /* "Now Out" section */
+#now-out {
+    color: white;
+}
 
 #now-out .hero-banner {
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
