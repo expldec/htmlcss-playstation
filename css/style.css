@@ -152,6 +152,20 @@ header {
     color: grey;
 }
 
+#ps5-carousel p {
+    display: none;
+    margin-top: 0.5rem;
+}
+
+#ps5-carousel .ms_active {
+    border-bottom: 2px solid var(--ms_color-blue);
+}
+
+@media all and (min-width:768px) {
+    #ps5-carousel p {
+        display: block;
+    }
+}
 
 /* "Now Out" section */
 
