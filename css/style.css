@@ -1,0 +1,57 @@
+/* BUTTONS */
+.ms_btn {
+    border-radius: 3rem;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+}
+
+.ms_btn-black {
+    background-color: #363636;
+    color: white;
+}
+
+.ms_btn-black:hover {
+    color: white;
+}
+
+/* HEADER */
+#header-top {
+    background-color: black;
+    height: 2rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#header-top img {
+    height: 50%;
+    width: auto;
+}
+
+#header-nav .ms_dropdown-toggle::after {
+    content: '\f107';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin: 0 0.2rem;
+    color: grey;
+}
+
+#header-nav .ms_bg-white {
+    background-color: white !important;
+}
+
+#header-nav .ms_bg-white .nav-link {
+    color: black;
+    font-weight: 500;
+}
+
+#header-nav .ms_search-icon {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+}
+.ms_search-icon img {
+    height: 2em;
+}
