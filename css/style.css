@@ -87,6 +87,15 @@ p {
     color: var(--ms_color-blue);
 }
 
+.ms_btn-white {
+    background-color: white;
+    color: black;
+    font-weight: 500;
+}
+
+.ms_btn-white:hover {
+    color: black;
+}
 
 
 /* HEADER */
@@ -227,4 +236,11 @@ header {
 
 #discounts p {
     color: grey;
+}
+
+/* PSNOW SECTION */
+
+#ps-now {
+    background-color: #161c3b;
+    color: white;
 }
