@@ -30,6 +30,11 @@ p {
 
 .ms_thumbnail {
     position: relative;
+    transition: bottom 2s;
+}
+
+.ms_thumbnail:hover {
+    bottom: 0.5rem;
 }
 
 .ms_thumbnail img {
