@@ -244,3 +244,38 @@ header {
     background-color: #161c3b;
     color: white;
 }
+
+/* FOOTER  */
+footer {
+    background-color: #00439c;
+    color: white;
+    font-size: 0.8rem;
+}
+
+footer p {
+    font-weight: 400;
+}
+
+.ms_language-select img {
+    height: 1.2rem;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#sie-logo {
+    height: 3rem;
+}
