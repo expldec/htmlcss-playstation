@@ -152,6 +152,10 @@ header {
     color: grey;
 }
 
+#ps5-carousel img {
+    opacity: 0.6;
+}
+
 #ps5-carousel p {
     display: none;
     margin-top: 0.5rem;
@@ -159,6 +163,14 @@ header {
 
 #ps5-carousel .ms_active {
     border-bottom: 2px solid var(--ms_color-blue);
+}
+
+#ps5-carousel .ms_active p {
+    color: black;
+}
+
+#ps5-carousel .ms_active img {
+    opacity: 1;
 }
 
 @media all and (min-width:768px) {
@@ -170,8 +182,22 @@ header {
 /* "Now Out" section */
 #now-out {
     color: white;
+    background-color: #1f1f1f;
 }
 
 #now-out .hero-banner {
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+}
+
+#now-out-carousel img {
+    border-radius: 1rem;
+}
+#now-out-carousel p {
+    font-weight: 600;
+}
+
+/* PS4 Section */
+
+#ps4 p {
+    color: grey;
 }
