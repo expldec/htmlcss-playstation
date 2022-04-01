@@ -30,10 +30,12 @@ p {
 
 .ms_thumbnail {
     position: relative;
-    transition: bottom 2s;
+    bottom: 0;
+    left: 0;
+    transition: all 0.2s;
 }
 
-.ms_thumbnail:hover {
+#jumbotron-carousel .row>div:hover .ms_thumbnail {
     bottom: 0.5rem;
 }
 
