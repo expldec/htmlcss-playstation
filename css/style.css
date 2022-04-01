@@ -20,6 +20,10 @@ h2 {
     font-weight: 400;
 }
 
+p {
+    font-weight: 500;
+}
+
 .ms_img-wrapper {
     padding: 2rem 0;
 }
@@ -72,6 +76,17 @@ h2 {
 .ms_btn-blue {
     background-color: var(--ms_color-blue);
 }
+
+.ms_btn-grey {
+    background-color: #d9dadc;
+    color: var(--ms_color-blue);
+    font-weight: 500;
+}
+
+.ms_btn-grey:hover {
+    color: var(--ms_color-blue);
+}
+
 
 
 /* HEADER */
@@ -200,4 +215,10 @@ header {
 
 #ps4 p {
     color: grey;
+}
+
+/* PSPLUS SECTION */
+
+#ps-plus {
+    background-color: #bebcbb;
 }
