@@ -136,6 +136,14 @@ header {
     color: grey;
 }
 
+#header-nav .ms_dropdown-toggle.show::after {
+    content: '\f106';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin: 0 0.2rem;
+    color: grey;
+}
+
 #header-nav .ms_bg-white {
     background-color: white !important;
 }
@@ -154,6 +162,34 @@ header {
     height: 2em;
 }
 
+/* CUSTOM DROPDOWN BEHAVIOR */
+.ms_dropdown {
+    position: static;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #1e2125;
+    background-color: white;
+}
+
+.ms_dropdown .dropdown-menu {
+    width: 100%;
+    margin: 0;
+    border: 0;
+}
+
+.ms_dropdown ul {
+    text-align: center;
+}
+
+.ms_dropdown li {
+    display: inline-block;
+}
+
+.ms_dropdown-links li {
+    list-style:circle;
+}
+
 /* JUMBOTRON */
 #jumbotron {
     margin-top: 7rem;
@@ -164,7 +200,6 @@ header {
     background-image: url('../img/jumbo-bg.png');
 
 }
-
 
 /* PS5 SECTION */
 
