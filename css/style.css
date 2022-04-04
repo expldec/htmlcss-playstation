@@ -62,10 +62,14 @@ p {
     display: inline-flex;
     align-items: center;
     color: white;
+    outline-offset: 2px;
+    outline-style: solid;
+    outline-width: 0;
 }
 
 .ms_btn:hover {
     color: white;
+    outline-width: 2px;
 }
 
 .ms_btn:focus {
@@ -74,18 +78,22 @@ p {
 
 .ms_btn-black {
     background-color: #363636;
+    outline-color: #363636;
 }
 
 .ms_btn-red {
     background-color: #cd3d0f;
+    outline-color: #cd3d0f;
 }
 
 .ms_btn-blue {
     background-color: var(--ms_color-blue);
+    outline-color: var(--ms_color-blue);
 }
 
 .ms_btn-grey {
     background-color: #d9dadc;
+    outline-color: #d9dadc;
     color: var(--ms_color-blue);
     font-weight: 500;
 }
@@ -96,6 +104,7 @@ p {
 
 .ms_btn-white {
     background-color: white;
+    outline-color: white;
     color: black;
     font-weight: 500;
 }
@@ -243,6 +252,14 @@ header {
     #ps5-carousel p {
         display: block;
     }
+}
+
+#ps5-carousel>div:hover img {
+    opacity: 1;
+}
+
+#ps5-carousel>div:hover p {
+    color: black;
 }
 
 /* "Now Out" section */
